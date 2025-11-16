@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Set up the Google API Key
-os.environ["GOOGLE_API_KEY"] = "google api here"
+os.environ["GOOGLE_API_KEY"] = "AIzaSyCp1DXYDQ2yON13bSniYfhP-K1OB1mye8E"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # Initialize the Gemini model
