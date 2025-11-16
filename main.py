@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Set up the Google API Key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCp1DXYDQ2yON13bSniYfhP-K1OB1mye8E"
+os.environ["GOOGLE_API_KEY"] = "api key"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # Initialize the Gemini model
@@ -112,3 +112,4 @@ def predict_url():
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
+
